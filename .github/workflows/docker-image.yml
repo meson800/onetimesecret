@@ -3,7 +3,8 @@ name: Docker Image CI
 on:
   push:
     branches: [ "develop" ]
-
+env:
+  IMAGE_NAME: onetimesecret
 jobs:
 
   build:
